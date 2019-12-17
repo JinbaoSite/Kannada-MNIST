@@ -1,9 +1,3 @@
----
-title: Kaggle | Kannada MNIST
-date: 2019-07-13 12:43:33
-categories: [Kaggle]
----
-
 ## 0 题目背景
 
 比赛地址：[Kannada MNIST](https://www.kaggle.com/c/Kannada-MNIST/overview)
@@ -29,7 +23,7 @@ plt.title("Kanada MNIST label distributions")
 sns.barplot(x=label_values.index, y=label_values)
 ```
 
-![Kanada MNIST label distributions](/images/Kanada_MNIST_label_distributions.png)
+![Kanada MNIST label distributions](images/Kanada_MNIST_label_distributions.png)
 可以看出label分布一致
 
 ### 1.3 将csv数据转换成图像
@@ -61,7 +55,7 @@ for idx in range(img_train.shape[0]):
         break
 ```
 
-![Kanada MNIST label distributions](/images/img_label.png)
+![Kanada MNIST label distributions](images/img_label.png)
 
 ## 2 构建模型
 
@@ -212,7 +206,7 @@ plt.show()
 ```
 
 训练曲线如下
-![](/images/model_history.png)
+![](images/model_history.png)
 
 ## 4 测试集图片
 
